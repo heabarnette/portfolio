@@ -71,7 +71,21 @@ h2 {
     margin-right: auto;
     margin-top: 2em;
 }
+.content-footer
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.social > li {
+    display: inline-block;
+}
 
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #3E6A8E;
+}
 .portfolio {
 
 }
@@ -153,18 +167,3 @@ h2 {
     width: 100%;
     margin-bottom: 1em;
   }
-.content-footer
-{
-   
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-.social > li {
-    display: inline-block;
-}
-
-.content-footer {
-  /* Red, Green, Blue: #RRGGBB */
-  background-color: #3E6A8E;
-}
