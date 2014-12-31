@@ -73,25 +73,35 @@ h2 {
 }
 .content-footer
 {
-   
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    background-color: #3E6A8E;
 }
 .social > li {
     display: inline-block;
 }
-
-.content-footer {
-  /* Red, Green, Blue: #RRGGBB */
-  background-color: #3E6A8E;
+.thumbs {
+    background-color: #3E6A8E;
+    min-height: 58em;
+    
 }
-.portfolio {
 
+.portfolio {
+    
 }
 
 .thumbnails {
-    display: grid;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    background-color: #d3d3d3;
+    border: 1px solid #665544;
+    overflow: auto;
+    height: 53em;
+    img-align: center;
+    text-align: center;
+
 }
 .one-col {
   width: 6.958%;
@@ -162,8 +172,17 @@ h2 {
 .eleven-offset {
   margin-left: 91.54%;
 }
+
+
+
 @media all and (max-width: 768px) {
   [class*="-col"] {
     width: 100%;
     margin-bottom: 1em;
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
   }
