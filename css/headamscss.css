@@ -139,8 +139,8 @@ nav ul li a {
 
 .thumbnails {
     float: left;
-    margin: 1em;
-    padding: 1em;
+    margin: 1%;
+    padding: 1%;
     background-color: #d3d3d3;
     border: 1px solid #665544;
     overflow: auto;
