@@ -8,11 +8,23 @@
   <script src="js/app.js"></script>
 </head>
 <body>
-<section class="masthead">
+<!--<header class"shadow">
+  <div id="logo"><p class="logo-text">Heather Adams</p>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+</header> -->
+<section class="masthead" id="home">
   <p class="masthead-intro">Hi, I'm</p>
   <h1 class="masthead-heading">Heather!</h1>
 </section>
-<section class="introduction-section">
+<section class="introduction-section" id="profile">
   <h1>Introduction</h1>
   <p>I'm a scientist-turned-writer and aspiring web developer.  I also run my own business, Aetherie Works, selling crochet accessories and home decor through Etsy.</p>
 </p>
@@ -35,34 +47,37 @@
 </section>
 <section class="portfolio">
   <h1>Web Projects</h1></section>
-<div class="thumbs">
-  <div class="one-offset two-col thumbnails">
-  <a href="http://heabarnette.github.io/EtsyAPI/"><img src="img/etsy.jpg"></a><p>Etsy API- html, css, jQuery, JavaScript, AJAX</p>
-  <a href="http://heabarnette.github.io/stackerAJAX/"><img src="img/stack.jpg"></a><p>Stacker AJAX- API integration</p>
-  <a href="http://heabarnette.github.io/scienceQuiz/"><img src="img/quiz.jpg"></a><p>Science Quiz- html, css, jQuery, javascript</p></div>
-
-  <div class="two-col thumbnails">
-  <a href="http://heabarnette.github.io/hot-or-cold-starter/"><img src="img/number.jpg"></a><p>Hot or Cold number game- javascript, jQuery</p>
-  <a href="http://heabarnette.github.io/shipping-list/list.html"><img src="img/list.jpg"></a><p>Shopping List app- html, css, jQuery</p>
-  <a href="http://heabarnette.github.io/fizzbuzzRefactor/fizzbuzz.html"><img src="img/fizz.jpg"></a><p>fizzbuzz and fizzbuzz Refactor- html, javascript, jQuery</p>
+<div class="thumbs" id="portfolio">
+  <div class="one-offset three-col thumbnails">
+  <a href="http://heabarnette.github.io/EtsyAPI/"><img src="img/etsy.jpg"></a><p>Fiber Portal: HTML, CSS, JavaScript, AJAX</p>
+  <a href="http://heabarnette.github.io/hot-or-cold-starter/"><img src="img/number.jpg"></a><p>Hot or Cold: JavaScript, jQuery</p>
+  <a href="http://heabarnette.github.io/jquery-streetfighter/main.html"><img src="img/hadouken.jpg"></a><p>Streetfighter: HTML, CSS, jQuery</p>
+  <a href="img/NYT1903.png"><img src="img/NYT.jpg"></a><p>Hack the Times: google dev tools</p>
+  </div>
+   
+  <div class="three-col thumbnails">
+  <a href="http://heabarnette.github.io/scienceQuiz/"><img src="img/quiz.jpg"></a><p>Science Quiz: HTML, CSS, jQuery, JavaScript</p>
+  <a href="http://heabarnette.github.io/shipping-list/list.html"><img src="img/list.jpg"></a><p>Shopping List app: HTML, CSS, jQuery</p>
+  <a href="http://heabarnette.github.io/fewd_landing_page_clone/"><img src="img/karma.jpg"></a><p>Karma clone: HTML, CSS</p>
+  <a href="img/API_mockup.png"><img src="img/etsy.jpg"></a><p>Wireframe for Etsy API: Balsamiq</p>
   </div>
 
-  <div class="two-col thumbnails">
-  <a href="http://heabarnette.github.io/jquery-streetfighter/main.html"><img src="img/hadouken.jpg"></a><p>Streetfighter- html, css, jQuery</p>
-  <a href="http://heabarnette.github.io/fewd_landing_page_clone/"><img src="img/karma.jpg"></a><p>Karma clone- html, css</p>
-  <a href="http://heabarnette.github.io/vox-mars/Vox.html"><img src="img/mars.jpg"></a><p>Vox Mars page clone- html, css</p>
+  <div class="three-col thumbnails">
+  <a href="http://heabarnette.github.io/stackerAJAX/"><img src="img/stack.jpg"></a><p>Stacker AJAX: API integration</p>
+  <a href="http://heabarnette.github.io/fizzbuzzRefactor/fizzbuzz.html"><img src="img/fizz.jpg"></a><p>FizzBuzz and Refactor: HTML, JavaScript, jQuery</p>
+  <a href="http://heabarnette.github.io/vox-mars/Vox.html"><img src="img/mars.jpg"></a><p>Vox Mars page clone: HTML, CSS</p>
+  <a href="img/DailyCalibration.png"><img src="img/daily.jpg"></a><p>Wireframe for Science Lifestyle Magazine</p>
   </div>
-  <div class="two-col thumbnails">
-  <a href="img/NYT1903.png"><img src="img/NYT.jpg"></a><p>Hack the Times- google dev tools</p>
-  <a href="img/API_mockup.png"><img src="img/etsy.jpg"></a><p>Wireframe for Etsy API- balsamiq</p>
-  </div>
+ 
 </div>
 </body>
-<footer class="content-footer">
+<footer class="content-footer" id="contact">
   <p>Say hi to me on these social networks:</p>
-  <ul class="social">
-        <li><a href="https://github.com/heabarnette">GitHub</a></li>
-        <li><a href="https://twitter.com/AetherieWorks">Twitter</a></li>
-        <li><a href="http://instagram.com/aetherieworks">Instagram</a></li>
-    </ul>
+  <span class="social">
+        <li><a href="mailto:heather.e.adams@gmail.com?Subject=Just%20viewed%20your%20portfolio"><img class="icon" src="img/email.png"></a>
+        <li><a href="https://github.com/heabarnette"><img class="icon" src="img/github.png"></a></li>
+        <li><a href="http://linkedin.com/pub/heather-adams/5/105/938/"><img class="icon" src="img/linkedin.png"></a>
+        <li><a href="https://twitter.com/AetherieWorks"><img class="icon" src="img/twitter.png"></a></li>
+        <li><a href="http://instagram.com/aetherieworks"><img class="icon" src="img/instagram.png"></a></li>
+    </span>
 </footer>
